@@ -1,0 +1,115 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #666;
+}
+
+main {
+  margin: 0 20px;
+}
+
+.side-panel {
+  float: left;
+  width: 20%;
+  padding: 20px;
+}
+
+.side-panel h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.side-panel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-panel li {
+  margin-bottom: 10px;
+}
+
+.side-panel a {
+  text-decoration: none;
+  color: #666;
+}
+
+.featured-products {
+  float: right;
+  width: 80%;
+  padding: 20px;
+}
+
+.featured-products h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tile {
+  width: 200px;
+  margin: 10px;
+}
+
+.tile img {
+  display: block;
+  margin: 0 auto;
+}
+
+.tile strong {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tile a {
+  text-decoration: none;
+  color: #666;
+}
+
+.latest-deals {
+  clear: both;
+  padding: 20px;
+}
+
+footer {
+  background-color: #ccc;
+  text-align: center;
+  padding: 20px;
+}
